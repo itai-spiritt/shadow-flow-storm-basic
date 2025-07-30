@@ -1,12 +1,14 @@
 {
   "scripts": {
     "debug": "clj -Sforce -Sdeps '{:deps {com.github.flow-storm/flow-storm-dbg {:mvn/version \"4.1.0\"}}}' -X flow-storm.debugger.main/start-debugger :port 9000 :repl-type :shadow :build-id :cljstorm",
-    "dev": "shadow-cljs watch :dev --aliases :cljs-storm",
-    "serve": "serve public"
+    "dev:esm": "shadow-cljs watch :dev --aliases :cljs-storm",
+    "serve": "vite"
   },
   "dependencies": {
-    "serve": "^14.2.4",
+    "react": "^19.1.1",
+    "react-dom": "^19.1.1",
     "shadow-cljs": "2.28.10",
+    "vite": "^4.5.2",
     "websocket": "1.0.34"
   }
 }

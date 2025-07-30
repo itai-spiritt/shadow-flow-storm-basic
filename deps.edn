@@ -8,4 +8,4 @@
 
                         :jvm-opts ["-Dcljs.storm.instrumentOnlyPrefixes=org.foo,dev"
                                    "-Dcljs.storm.instrumentEnable=true"
-                                   "-Dflowstorm.startRecording=true"]}}}
+                                   "-Dflowstorm.startRecording=false"]}}}

@@ -6,6 +6,6 @@
 /.clj-kondo
 /dist
 /.lsp
-/public/cljs-runtime
-/public/app.js
+/src/org/foo/js/cljs-runtime
+/src/org/foo/js/app.js
 /.calva

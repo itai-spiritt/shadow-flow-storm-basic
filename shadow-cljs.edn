@@ -6,5 +6,5 @@
         :devtools {:preloads [flow-storm.storm-preload]
                    :http-port 8021}
         :modules {:app
-                  {:exports {app org.foo.myscript/app}}}
-        :output-dir "public"}}}
+                  {:exports {factorial org.foo.cljs.myscript/factorial}}}
+        :output-dir "src/org/foo/js"}}}
