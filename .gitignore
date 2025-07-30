@@ -3,3 +3,9 @@
 /.shadow-cljs/
 /node_modules/
 /repl-client-debug
+/.clj-kondo
+/dist
+/.lsp
+/public/cljs-runtime
+/public/app.js
+/.calva
